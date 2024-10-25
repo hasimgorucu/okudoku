@@ -1,0 +1,71 @@
+.header{
+    height: 10vw;
+    position: fixed;
+    box-shadow: 0 2px 8px gray;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1000;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    @media screen and (min-width: 1024px) and (max-width: 1200px){
+        height: 16vw;
+
+    }
+
+    @media screen and (min-width: 821px) and (max-width: 1024px){
+        height: 15vw;
+
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 820px){
+        height: 25vw;
+    }
+
+
+    @media screen and (max-width: 600px) {  
+        height: 46vw;
+        position: static;
+       }
+       @media screen and (max-width: 335px) {  
+        height: 50vw;
+        position: static;
+
+       }
+       @media screen and (max-width: 307px) {  
+        height: 60vw;
+        position: static;
+       }
+}
+
+.headerContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    @media (max-width: 600px) {  
+        flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+           }
+}
+
+.header img{
+    width: 100px;
+    @media (max-width: 600px) {  
+        width: 80px;
+
+
+           }
+}
+
+.custom-btn{
+    color: black;
+    font-size: 1.5vw;
+    @media (max-width: 600px) {  
+       font-size: 3.5vw;
+      }
+}

@@ -1,0 +1,147 @@
+.storyList{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.banner{
+    margin: 0 auto;
+box-shadow: 1px 1px 4px lightgray , -1px -1px 4px lightgray;
+    margin-top: 11vw;
+    @media screen and (min-width: 821px) and (max-width: 1024px){
+        margin-top: 20vw;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1200px) {
+        margin-top: 17vw;
+      }
+
+    @media screen and (min-width: 600px) and (max-width: 820px){
+        margin-top: 27vw;
+    }
+
+    @media screen and (max-width: 600px) {  
+        margin-top: 11vw;
+       }
+       
+    height: 40vw;
+    width: 8vw;
+    @media screen and (max-width: 600px) {  
+        display: none;
+       }
+
+}
+
+.bannerImg{
+    width: 100%;
+    height: auto;
+}
+
+
+.storyListContainer{
+    text-align: start;
+    margin: 0 auto;
+    margin-top: 11vw;
+    width: 90%;
+    box-shadow: 2px 2px 8px lightgray, -2px -2px 8px lightgray;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: white;
+    margin-bottom: 150px;
+    @media screen and (min-width: 821px) and (max-width: 1024px){
+        margin-top: 17vw;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1200px) {
+        margin-top: 25vw;
+      }
+
+    @media screen and (min-width: 600px) and (max-width: 820px){
+        margin-top: 35vw;
+    }
+
+    @media screen and (max-width: 600px) {  
+        margin-top: 15vw;
+       }
+}
+
+.listHeading{
+    font-size: 4vw;
+    color: #808fa1;;
+    @media screen and (max-width: 600px) {  
+        font-size: 6vw;
+
+       }
+
+       @media screen and (min-width: 821px) and (max-width: 1024px){
+        font-size: 6vw;
+
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 820px){
+        font-size: 6vw;
+
+
+    }
+}
+
+.storyListContainer a{
+    font-size: 1.5vw;
+    @media screen and (max-width: 600px) {  
+        font-size: 4vw;
+
+       }
+       @media screen and (min-width: 600px) and (max-width: 820px){
+        font-size: 2.5vw;
+
+
+    }
+
+       @media screen and (min-width: 821px) and (max-width: 1024px){
+        font-size: 2.5vw;
+
+    }
+    
+}
+
+.storyListContainer tbody tr{
+    font-size: 1.5vw;
+    @media screen and (max-width: 600px) {  
+        font-size: 4vw;
+
+       }
+       @media screen and (min-width: 600px) and (max-width: 820px){
+        font-size: 2.5vw;
+
+
+    }
+
+       @media screen and (min-width: 821px) and (max-width: 1024px){
+        font-size: 2.5vw;
+
+    }
+}
+
+.storyListContainer tbody tr a{
+    color: #666666;
+    font-weight: 600;
+}
+
+.storyListContainer thead th{
+    font-size: 1.5vw;
+    @media screen and (max-width: 600px) {  
+        font-size: 4vw;
+
+       }
+       @media screen and (min-width: 600px) and (max-width: 820px){
+        font-size: 2.5vw;
+
+
+    }
+
+       @media screen and (min-width: 821px) and (max-width: 1024px){
+        font-size: 2.5vw;
+
+    }
+}
+

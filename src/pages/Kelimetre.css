@@ -1,0 +1,42 @@
+.kelimetre {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .kelimetreContainer{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px;
+  margin-top: 11vw;
+  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+    margin-top: 18vw;
+  }
+  @media screen and (min-width: 821px) and (max-width: 1024px) {
+    margin-top: 20vw;
+  }
+  @media screen and (min-width: 600px) and (max-width: 820px) {
+    margin-top: 27vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin-top: 18vw;
+  }
+  margin-bottom: 160px;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px lightgray, -2px -2px 8px lightgray;
+  background-color: white;
+  width: 80%;
+
+  }
+
+  .kelimetreButtons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

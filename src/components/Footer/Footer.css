@@ -1,0 +1,21 @@
+footer{
+    background-color: #FFCFCA;
+    padding: 4vw 0;
+    width: 100%;
+    margin-top: 15vw;
+}
+
+.container{
+    text-align: center;
+}
+
+.container div {
+    text-align: center;
+    color: black;
+
+}
+
+.container div a{
+    color: black;
+    text-decoration: underline;
+}

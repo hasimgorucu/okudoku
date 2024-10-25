@@ -1,0 +1,14 @@
+.headerButtons{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.headerButton{
+    color: black;
+    font-size: 1.5vw;
+    @media (max-width: 600px) {  
+       font-size: 3.5vw;
+      }
+}
